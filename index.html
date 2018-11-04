@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>HomeWork3</title>
+  <link rel="stylesheet" href="css/styles.css">
+ </head>
+ <body>
+  <form action="http://..." method="post">
+   <p>
+   <fieldset>
+    <legend>
+     <strong>Коротко о себе</strong>
+    </legend>
+    <p>
+     <label>
+     Имя:
+      <input type="text" name="UserName" value="" required>
+     </label>
+    </p>
+    <p>
+     <label>
+      Фамилия:
+      <input type="text" name="UserSurname" value="" required>
+     </label>
+    </p>
+    <p>
+     Пол:
+     <label>
+      <input type="radio" name="Sex" value="male" required>мужской
+     </label>
+     <label>
+      <input type="radio" name="Sex" value="female" required>женский
+     </label>
+    </p>
+    <p>
+     <label>
+     Возраст:
+     <input type="text" name="Age" size="1" required> лет
+    </label>
+    </p>
+    </fieldset>
+    <p>
+     <fieldset>
+    <legend>
+     <strong>Подробнее о себе</strong>
+    </legend>
+    <label>
+     <input type="radio" name="young" value="YoungMan"> Молодой человек
+    </label>
+    <br>
+    <label>
+     <input type="radio" name="young" value="Girl"> Девушка
+    </label>
+    <br>
+    <label>
+    <input type="text" name="DateofBirth" value="" required> Дата рождения
+    </label>
+    <br>
+    <label>
+    <input type="text" name="FamilyStatus" value="" required> Семейное положение
+    </label>
+    <br>
+    <label>
+     <input type="text" name="SocialStatus" value="" required> Социальный статус
+    </label>
+    <br>
+    <label>
+     <input type="text" name="Residence" value="" required> Местожительство
+    </label>
+    <p><strong>Что вы обычно делаете на выходных:</strong></p>
+    <p>
+     <label>
+      <input type="checkbox" name="SpendingTime" value="Sleep"> Сплю
+     </label>
+     <br>
+     <label>
+      <input type="checkbox" name="SpendingTime" value="WalkingWithFriends"> Глуяю с друзьями
+     </label>
+     <br>
+     <label>
+      <input type="checkbox" name="SpendingTime" value="Fishing"> Хожу на рыбалук
+     </label>
+     <br>
+     <label>
+      <input type="checkbox" name="SpendingTime" value="PlayingGames"> Играю в игры
+     </label>
+    </p>
+    <p><strong>Рассказать о формах в книге, посвященной HTML:</strong></p>
+    <p>
+     <select name="site" required>
+      <option disabled selected>Site frequency:</option>
+      <option value="s1">Пункт 1</option>
+      <option value="s2">Пункт 2</option>
+     </select>
+    </p>
+    <p><strong>Сколько книг вы прочитали за всю жизнь:</strong></p>
+    <p>
+     <label>
+      <input type="radio" name="Books" value="0-10" required>0-10
+     </label>
+     <br>
+     <label>
+      <input type="radio" name="Books" value="11-20" required>11-20
+     </label>
+     <br>
+     <label>
+      <input type="radio" name="Books" value="21-50" required>21-50
+     </label>
+     <br>
+     <label>
+      <input type="radio" name="Books" value="50+" required>50+
+     </label>
+    </p>
+    <p><strong>Ваши комментарии:</strong>
+     <br>
+    <textarea rows="9" cols="60"></textarea>
+    </p>
+    <p>
+     <select size="3" name="position" multiple>
+      <option value="p1">Первая позиция</option>
+      <option value="p2" selected>Вторая позиция</option>
+      <option value="p3">Третья позиция</option>
+     </select>
+    </p>
+    </fieldset>
+    <p>
+     <fieldset>
+      <legend>
+       <strong>И в заключении</strong>
+      </legend>
+      <input type="text" size="30" name="Pole" placeholder="Это поле было введено до Вас">
+      <p>
+      <label>
+      <strong>Email:</strong>
+      <br>
+      <input size="30" type="email" name="email" value="" required>
+     </label>
+    </p>
+    <p><strong>Хотите подписаться на самую модную рассылку спама?</strong>
+     <br>
+     <i>Выберите категории</i>
+    </p>
+    <label>
+     <input type="checkbox" name="categories" value="equipment"> Оборудование
+    </label>
+    <br>
+    <label>
+     <input type="checkbox" name="categories" value="dinner"> Как приготовить обеды
+    </label>
+    <br>
+    <label>
+     <input type="checkbox" name="categories" value="142"> Заработай миллион за два дня!
+    </label>
+    <p><strong>На сколько сложная задача:</strong></p>
+    <label>
+     <input type="radio" name="complexity" value="easy" checked required> Совсем нет
+    </label>
+    <br>
+    <label>
+     <input type="radio" name="complexity" value="medium" required> Так себе
+    </label>
+    <br>
+    <label>
+     <input type="radio" name="complexity" value="hard" required> Еле справились
+    </label>
+   </fieldset>
+   <p>
+    <button>Отправить</button>
+   </p>
+  </form>
+  <table class="t1" border="1">
+   <thead>
+    <tr><th>Об'єкт обробки</th><th>Норма витрати препарату, мл/10л</th><th>Норма витрати препарату, л/сотку</th><th>Шкідливі об'єкти</th></tr>
+   </thead>
+   <tbody>
+    <tr><td>Картопля</td><td>60-80</td><td>до 5 л.</td><td>Однорічні дводольні та злакові бур'яни</td></tr>
+    <tr><td>Морква</td><td>40-60</td><td>до 5 л.</td><td>Однорічні дводольні та злакові бур'яни</td></tr>
+   </tbody>
+  </table>
+  <p>
+  <table class="t2" border="1">
+   <thead>
+    <tr><th>Культура</th><th>Бур'яни</th><th>Норма витрати препарату, л/га</th><th>Строки обробки</th></tr>
+   </thead>
+   <tbody>
+    <tr><th>Ріпак</th><td>однорічні</td><td>2 - 3</td><td>1 обробка в фазі 2-4 листків у бур'янів. при висоті бур'янів 10-15 см</td></tr>
+    <tr><th>Томати</th><td rowspan="2">однорічні та багаторічні</td><td>1 - 2 2 - 3</td><td rowspan="3">1 обробка в фазі 1-2 листків культури, висота бур'янів 10-15 см</td></tr>
+    <tr><th>Огірки</th><td>2 - 3</td></tr>
+    <tr><th>Коноплі</th><td>однорічні</td><td>1,5</td></tr>
+   </tbody>
+  </table>
+ <p>
+  <table class="t3" border="1">
+   <thead>
+    <tr><th>Культура</th><th>Спектр дії</th><th>Норма витрати</th></tr>
+   </thead>
+   <tbody>
+    <tr><td>Буряки (столові, цукрові, кормові), морква, соняшник, картопля, капуста, цибуля, ріпак, баклажани, гарбузи, горох, дині, огірки, перець, петрушка, селера, спаржа, томати, плодові культури (вишня, груша, персик, слива, яблуня), ягідні культури (суниця, смородина)</td><td>Гумай, куряче просо, види мишію, види пальчатки, види вівсюга, метлюг звичайний, лисохвіст польовий, просо волосовидне</td><td>0,8 - 2,0 л/га</td></tr>
+    <tr><td>Однорічні та деякі багаторічні дводольні в т.ч. стійкі до 2,4-Д (підмаренник чіпкий, берізка польова, зірочник середній, та ін..)</td><td>Пшениця озима</td><td>7,5 - 10</td></tr>
+    <tr><td>Поля, призначені для посіву озимих, овочевих, баштанних культур, цукрових буряків, кукурудзи, багаторічних трав. Пари, несільськогосподарські угіддя, та ін..</td><td>Багаторічні дводольні (осоти, ромашки, молочаї, кульбаба, та ін..)</td><td>30</td></tr>
+   </tbody>
+  </table>
+ </body>
+</html>
