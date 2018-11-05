@@ -1,11 +1,57 @@
 .t1 {
-   /* align: justify; */
-   /* text-align: center; /* Выравнивание по центру */
+    width: 70%;
+   /* border: 1px double grey; */
 }
 .t2 {
-    /* text-align: center; /* Выравнивание по центру */
+    width: 50%;
 }
 .t3{
-   /* border : 1; */
-   /* border : ridge; */
+    width: 50%;
+    border-spacing: 0;
+}
+.t1k {
+    padding: 3px;
+}
+.tx {
+    text-align: left;
+    padding: 4px;
+}
+.tx1 {
+    text-align: left;
+    padding: 4px;
+}
+.ty{
+    width: 5%;
+    padding: 4px;
+}
+.ty1 {
+    width: 10%;
+    padding: 4px;
+}
+.ty2 {
+    width: 15%;
+    padding: 4px;
+}
+.ty3 {
+    width: 20%;
+    padding: 4px;
+}
+.tz1 {
+    width: 60%;
+    text-align: left;
+    padding: 5px;
+}
+.tz2 {
+    width: 30%;
+    text-align: left;
+    padding: 5px;
+}
+.tz3{
+    width: 10%;
+    text-align: left;
+    padding: 5px;
+}
+.tf1 {
+    vertical-align: text-top;
+    padding: 5px;
 }
